@@ -9,8 +9,6 @@ public class TestSpring {
         );
 
         ClassicalMusic music = context.getBean("classicalMusic", ClassicalMusic.class);
-        ClassicalMusic music1 = context.getBean("classicalMusic", ClassicalMusic.class);
-        System.out.println(music==music1);
         MusicPlayer musicPlayer = context.getBean("musicPlayer", MusicPlayer.class);
         System.out.println(musicPlayer.playMusic());
         System.out.println(musicPlayer.getName() );
