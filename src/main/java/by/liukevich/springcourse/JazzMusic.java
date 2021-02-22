@@ -1,11 +1,8 @@
 package by.liukevich.springcourse;
 
-
-
-public class ClassicalMusic implements Music {
-
+public class JazzMusic implements Music{
     @Override
     public String getSong() {
-        return "Hungarian Rhapsody";
+        return "Let My People Go";
     }
 }
